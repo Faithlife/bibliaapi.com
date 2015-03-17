@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="style/wiki.css" type="text/css" />
+</head>
+<body>
+    <div class="PageFound HomePage Body">
+        <div class="MainText">
+            <div class="Content">
+                <div class="Level1">
+                    <h1>{{ page.title }}</h1>
+                    {{ content }}
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <hr class="ContentEnd" />
+            <div class="Footer">
+                <p>API.Biblia.com is a service provided by Faithlife Corporation.</p>
+            </div>
+        </div>
+        <hr class="MainTextEnd"/>
+        <h2 class="WikiHeader">
+            <a href="/"><img src="style/logo.png" alt="Biblia.com API Documentation" style="border-width:0;" /></a>
+        </h2>
+    </div>
+    <div class="HeaderBackground"></div>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-5334144-20', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+</html>

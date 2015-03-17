@@ -1,0 +1,212 @@
+﻿
+HTML { margin: 0; padding: 0 }
+BODY { margin: 0; padding: 0; background: #f9f9f9; color: black; font-size: x-small; font-family: Verdana, sans-serif }
+.Body { margin: 0; padding: 0; font-size: 127% }
+
+TABLE { background: white; font-size: 100%; color: black; margin: 0.4em 0 0.5em 0; padding: 0; border-collapse: collapse }
+THEAD, TBODY, TFOOT { margin: 0; padding: 0 }
+TR { margin: 0; padding: 0 }
+TD, TH { margin: 0; padding: 0.1em 0.3em 0.1em 0.2em; border: 1px solid #dddddd; vertical-align: top }
+THEAD {
+	 font-weight: bold
+}
+TH { font-weight: bold; text-align: left }
+
+A { text-decoration: none; color: #002bb8; background: none }
+A:visited { color: #5a3696 }
+A:active { color: #faa700 }
+A:hover { text-decoration: underline }
+
+A.NoPage { color: #777777; border-bottom: 1px dashed #777777 }
+
+A.External { background: url(external.png) center right no-repeat; padding-right: 13px }
+
+IMG { border: none; vertical-align: middle }
+
+P { margin: 0.4em 0 0.5em 0; line-height: 1.5em }
+P IMG { margin: 0 }
+
+HR { height: 1px; color: #aaaaaa; background-color: #aaaaaa; border: 0; margin: 0.2em 0 0.2em 0 }
+
+H1, H2, H3, H4, H5, H6 { color: black; background: none; font-weight: normal; margin: 0; padding-top: 0.5em; padding-bottom: 0.17em; border-bottom: 1px solid #aaaaaa }
+H1 { font-size: 188% }
+H2 { font-size: 150% }
+H3, H4, H5, H6 { border-bottom: none; font-weight: bold }
+H3 { font-size: 132% }
+H4 { font-size: 116% }
+H5 { font-size: 100% }
+H6 { font-size: 80%;  }
+
+UL { margin: 0.6em 0 0.6em 2.2em; padding: 0; list-style: disc outside none }
+UL UL { margin: 0.1em 0 0 1.1em }
+OL { margin: 0.6em 0 0.6em 3.0em; padding: 0; list-style: decimal outside none }
+OL OL { margin: 0.1em 0 0 1.5em; list-style: lower-alpha outside none }
+OL OL OL { list-style: lower-roman outside none }
+LI { margin: 0.2em 0 }
+DL { margin: 0.6em 0 0.6em 1em; padding: 0 }
+DT { font-weight: bold; margin: 0.2em 0 }
+DD { margin: 0.2em 0 0 2em }
+
+BLOCKQUOTE { margin: 0.6em 0 0.6em 1.6em; padding: 0 0 0 0.6em; border-left: 1px solid #aaaaaa }
+
+FORM { border: none; margin: 0 }
+TEXTAREA { width: 100%; padding: 0.1em }
+
+SELECT { vertical-align: top }
+
+ABBR, ACRONYM { border-bottom: 1px dotted black; color: black; background: none; cursor: help }
+
+.timeago { cursor: help }
+
+CITE { font-style: normal; text-decoration: underline }
+
+CODE { background-color: #f9f9f9; font-family: Verdana, sans-serif }
+
+PRE { padding: 1em; border: 1px solid #dddddd; color: black; background-color: #f9f9f9; font-family: Verdana, sans-serif; font-size: 90% }
+DIV.output { padding: 1em; border: 1px solid #dddddd; color: black }
+
+.Error { background: #FEE; color: Maroon }
+DIV.Error { border: 2px solid red; padding: 8px; margin: 4px }
+
+.ContentEnd { display: none }
+.MainTextEnd { display: none }
+
+.EmbeddedDataTable { display: inline }
+
+.UploadPanel { background: #ffffff; padding: 0.5em; margin: 0.5em }
+TABLE.UploadForm { border: none }
+TABLE.UploadForm TD { border: none }
+
+.MediaTile { text-align: center; float: left; width: 110px; height: 125px; padding: 1em; }
+
+.sz { font-family: Consolas, Monaco }
+
+.DataTable .odd { background: #F0F0F0; }
+.DataTable THEAD TH { cursor: pointer; }
+
+.sorting_asc {
+	background: url('dataTables/images/sort_asc.jpg') no-repeat center right;
+}
+
+.sorting_desc {
+	background: url('dataTables/images/sort_desc.jpg') no-repeat center right;
+}
+
+.sorting {
+	background: url('dataTables/images/sort_both.jpg') no-repeat center right;
+}
+
+.searchHeading, .searchContent, .searchDetail, .searchTerm, .sortOrderButton, .sortOrderButtonSortedBy {
+	font-family: "Segoe UI", "Lucida Grande", Helvetica, sans-serif;
+}
+
+.searchHeading{
+	font-size:140%;
+}
+
+.searchContent {
+	font-size: 100%;
+	padding: 2px;
+	padding-left: 0px;
+	width: 100%;
+}
+
+.searchDetail {
+	padding-top: 2px;
+	padding-left: 0px;
+	padding-bottom: 4px;
+	font-size: 90%;
+	color: Gray;
+	text-align:left;
+}
+
+.searchTerm {
+	font-weight:bolder;
+}
+
+.sortOrderButton, .sortOrderButtonSortedBy {
+	font-weight:normal;
+}
+
+.resultPaging {
+	float: left;
+	margin: 10px 0;
+	text-align:left;
+}
+
+.resultPaging a {
+	border: 1px solid silver;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	display:inline-block;
+	margin: 0 4px 0 0;
+	padding: 5px 15px;
+	text-align:center;
+}
+
+.resultPaging .pagecount {
+	margin-left: 6px;
+}
+
+.resultSorting {
+	float: right;
+	margin-top: 5px;
+}
+
+@media screen
+{
+	.MainText { margin: 1.5em 0 0 0 }
+	.WikiHeader { position: absolute; left: 0; top: 0; width: 10.5em; margin: 0.375em; padding: 0.25em; border-top: 0; border-right: 0; border-bottom: 1px solid #aaaaaa; border-left: 0; font-weight: bold; font-size: 100% }
+	.UserHeader { position: absolute; right: 0; top: 0; margin: 1px 0.5em 0 0; padding: 0; line-height: normal; white-space: nowrap }
+	.LogInControls { display: none; position: absolute; right: 0; top: 0; margin: 0.2em 0.2em 0 0; padding: 10px; line-height: normal; white-space: nowrap; background: white; border: 1px dashed black; text-align: right; }
+	.LogInCancel { float: left; padding-top: 0.65em; }
+	.LeftColumn { position: absolute; left: 0; top: 0; margin: 2em 0 0 0; width: 12em }
+
+	.Content { margin: 0.375em; padding: 0.375em; border: 1px solid black; background: white; font-family: Verdana, sans-serif }
+
+	.Footer { margin: 0.375em; padding: 0.375em; font-size: 84% }
+
+	.ContentTabs { position: absolute; left: 15.5em; top: 0.35em; z-index: 1; margin: 0; padding: 1px 0 0.2em 0; display: inline; font-size: 84%; list-style: none }
+	.ContentTabs LI { margin: 0 0.2em; padding: 0 0.4em 0 0.3em; display: inline; border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black; background: white }
+	.ContentTabs LI.CurrentTab { font-weight: bold; padding-bottom: 0.2em }
+	.ContentTabs A { text-decoration: none; color: #002bb8; background: none }
+	.ContentTabs A:visited { color: #002bb8 }
+	.ContentTabs A:active { color: #faa700 }
+	.ContentTabs A:hover { text-decoration: underline }
+	#SpacerTab { display: none; }
+
+	.Controls { margin: 0.375em; padding: 0.375em; font-size: 84%; list-style: none }
+	.Controls LI { margin: 0; padding: 0 }
+	
+	.SearchPanel { margin: 0.375em; padding: 0.375em 0.75em 0.375em 0.375em; font-size: 84% }
+	.SearchPanel DIV { text-align: center; margin-bottom: 0.125em }
+	.SearchText { width: 9em; font: 8pt Verdana, sans-serif }
+	.GoButton { font: 8pt Verdana, sans-serif; padding: 0 0.25em }
+	.SearchButton { font: 8pt Verdana, sans-serif; padding: 0 0.25em; font-weight: bold }
+
+	.HomeLink { margin: 0.375em; padding: 0.375em; font-weight: bold }
+	.MarginText { margin: 0.375em; padding: 0.375em; font-size: 84% }
+
+	.EditTextBoxView, .QueryTextBoxView { margin: 1em 0 0 3px }
+	.EditTextBoxView TD, .QueryTextBoxView TD { border: 0 }
+	.EditTextBox, .QueryTextBox { font: 10pt Verdana, sans-serif; width: 99%; margin: 0.2em }
+	.ButtonsView { margin: 4px 5px 6px 5px }
+	.ButtonsView TABLE { width: 100% }
+	.ButtonsView TD { border: 0 }
+	.PreviewView { margin: 0 5px 0 5px; padding: 5px; border: 1px solid gray; background: white }
+	.ResultsOptions { margin-top: 1em; border-top: 1px solid #aaaaaa }
+
+	.NodeBeforeChanged { background: #AFEEEE }
+	.NodeAfterChanged { background: #AFEEEE }
+}
+
+.clear { clear: both; }
+
+@media print
+{
+	.WikiHeader { display: none }
+	.UserHeader { display: none }
+	.LeftColumn { display: none }
+	.ContentTabs { display: none }
+}
