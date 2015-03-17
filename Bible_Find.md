@@ -18,7 +18,7 @@ Both of the following requests will return information for the Lexham English Bi
 
 [https://api.biblia.com/v1/bible/find/leb.json?key=abc123](https://api.biblia.com/v1/bible/find/leb.json?key=fd37d8f28e95d3be8cb4fbc37e15e18e)
 
-The following request will return /all/ available Bibles.
+The following request will return *all* available Bibles.
 
 [https://api.biblia.com/v1/bible/find?key=abc123](https://api.biblia.com/v1/bible/find?key=fd37d8f28e95d3be8cb4fbc37e15e18e)
 
