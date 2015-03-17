@@ -1,8 +1,7 @@
 ---
-title: Biblia.com API Documentation
+title: Terms of Use
 layout: default
 ---
-# Terms of Use
 
 ## Biblia API Terms of Use
 

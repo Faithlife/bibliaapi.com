@@ -1,10 +1,8 @@
 ---
-title: Biblia.com API Documentation
+title: Bible Compare
 layout: default
 ---
 [Bible Services](Bible_Services) >
-
-# Bible Compare
 
 Compares two Bible references.
 

@@ -1,10 +1,8 @@
 ---
-title: Biblia.com API Documentation
+title: Table of Contents
 layout: default
 ---
 [Bible Services](Bible_Services) >
-
-# Table of Contents
 
 Returns the books and chapters of a given bible version.
 

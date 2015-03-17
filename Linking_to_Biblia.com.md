@@ -1,8 +1,7 @@
 ---
-title: Biblia.com API Documentation
+title: Linking to Biblia.com
 layout: default
 ---
-# Linking to Biblia.com
 
 Biblia.com supports a clean URL structure designed for ease of use.
 

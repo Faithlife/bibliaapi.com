@@ -1,10 +1,8 @@
 ---
-title: Biblia.com API Documentation
+title: Bible Image
 layout: default
 ---
 [Bible Services](Bible_Services) >
-
-# Bible Image
 
 Returns the cover image for a Bible.
 

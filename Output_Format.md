@@ -1,8 +1,7 @@
 ---
-title: Biblia.com API Documentation
+title: Output Format
 layout: default
 ---
-# Output Format
 
 Unless otherwise specified, all services use [JSON](http://json.org/) by default.
 

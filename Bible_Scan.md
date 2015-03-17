@@ -1,10 +1,8 @@
 ---
-title: Biblia.com API Documentation
+title: Bible Scan
 layout: default
 ---
 [Bible Services](Bible_Services) >
-
-# Bible Scan
 
 Scans the specified text for Bible references.
 

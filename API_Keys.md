@@ -1,8 +1,7 @@
 ---
-title: Biblia.com API Documentation
+title: API Keys
 layout: default
 ---
-# API Keys
 
 API keys allow you to access the Biblia.com services.
 

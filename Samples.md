@@ -1,8 +1,7 @@
 ---
-title: Biblia.com API Documentation
+title: Samples
 layout: default
 ---
-# Samples
 
 ## Request Samples
 

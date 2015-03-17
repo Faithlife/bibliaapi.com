@@ -2,7 +2,6 @@
 title: Biblia.com API Documentation
 layout: default
 ---
-# Biblia.com API Documentation
 
 *For information on linking to Biblia.com, please see [Linking to Biblia.com](Linking_to_Biblia.com).*
 

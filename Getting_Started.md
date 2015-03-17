@@ -1,8 +1,7 @@
 ---
-title: Biblia.com API Documentation
+title: Getting Started
 layout: default
 ---
-# Getting Started
 
 1. Read the [Terms of Use](Terms_of_Use)
 2. Register for an [API Key](API_Keys)

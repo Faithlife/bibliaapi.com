@@ -1,8 +1,7 @@
 ---
-title: Biblia.com API Documentation
+title: Available Bibles
 layout: default
 ---
-# Available Bibles
 
 Use the field in column Bible ID as the `bible` parameter in your requests.
 

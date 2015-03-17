@@ -1,10 +1,8 @@
 ---
-title: Biblia.com API Documentation
+title: Pericope Search
 layout: default
 ---
 [Bible Services](Bible_Services) >
-
-# Pericope Search
 
 Performs a "fuzzy search" of the Bible.
 

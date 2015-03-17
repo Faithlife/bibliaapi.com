@@ -1,10 +1,8 @@
 ---
-title: Biblia.com API Documentation
+title: Bible Tag
 layout: default
 ---
 [Bible Services](Bible_Services) >
-
-# Bible Tag
 
 Tags the specified text with Bible references.
 

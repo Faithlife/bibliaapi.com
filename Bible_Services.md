@@ -1,8 +1,7 @@
 ---
-title: Biblia.com API Documentation
+title: Bible Services
 layout: default
 ---
-# Bible Services
 
 ## Available Services
 

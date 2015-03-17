@@ -1,10 +1,8 @@
 ---
-title: Biblia.com API Documentation
+title: Bible Parse
 layout: default
 ---
 [Bible Services](Bible_Services) >
-
-# Bible Parse
 
 Parses the specified text as one or more Bible passages. Can also be used to render a Bible reference in short, medium, or long form.
 

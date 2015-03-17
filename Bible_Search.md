@@ -1,10 +1,8 @@
 ---
-title: Biblia.com API Documentation
+title: Bible Search
 layout: default
 ---
 [Bible Services](Bible_Services) >
-
-# Bible Search
 
 Searches the text of a Bible.
 

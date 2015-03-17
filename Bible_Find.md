@@ -1,10 +1,8 @@
 ---
-title: Biblia.com API Documentation
+title: Bible Find
 layout: default
 ---
 [Bible Services](Bible_Services) >
-
-# Bible Find
 
 Finds one or more Bibles.
 

@@ -1,10 +1,8 @@
 ---
-title: Biblia.com API Documentation
+title: Bible Content
 layout: default
 ---
 [Bible Services](Bible_Services) >
-
-# Bible Content
 
 Returns the content of a Bible.
 
