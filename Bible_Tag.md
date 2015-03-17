@@ -33,9 +33,9 @@ The *tagFormat* parameter is a format string that determines what tagged Bible r
 If *tagFormat* is set to one of these values, we automatically substitute an appropriate pattern:
 
 <table>
-<tr><td> none </td><td> `{text}` </td></tr>
-<tr><td> ref.ly </td><td> `<a href="http://ref.ly/{query}">{text}</a>` </td></tr>
-<tr><td> bibleref </td><td> `<cite class="bibleref" title="{query}">{text}</cite>` </td></tr>
+<tr><td> none </td><td> <code>{text}<code> </td></tr>
+<tr><td> ref.ly </td><td> <code>&lt;a href="http://ref.ly/{query}"&gt;{text}&lt;/a&gt;</code> </td></tr>
+<tr><td> bibleref </td><td> <code>&lt;cite class="bibleref" title="{query}"&gt;{text}&lt;/cite&gt;</code> </td></tr>
 </table>
 
 ### Response
