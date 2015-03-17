@@ -6,9 +6,7 @@ layout: default
 
 Returns the content of a Bible.
 
-```
-https://api.biblia.com/v1/bible/content/{bible}.{outputFormat}?passage={bibleReference}&key={API key}
-```
+    https://api.biblia.com/v1/bible/content/{bible}.{outputFormat}?passage={bibleReference}&key={API key}
 
 ### Example
 
@@ -74,6 +72,4 @@ These parameters use the Logos 4 Copy Bible Verses syntax. Additional documentat
 
 Format headers with the verse reference and Bible version, in its own paragraph:
 
-```
-[FullPassageRef] ([Version])
-```
+    [FullPassageRef] ([Version])

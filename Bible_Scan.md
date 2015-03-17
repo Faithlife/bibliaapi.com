@@ -6,9 +6,7 @@ layout: default
 
 Scans the specified text for Bible references.
 
-```
-https://api.biblia.com/v1/bible/scan/?text={text}
-```
+    https://api.biblia.com/v1/bible/scan/?text={text}
 
 ### Example
 
@@ -23,15 +21,13 @@ https://api.biblia.com/v1/bible/scan/?text={text}
 
 ### Response
 
-```
-{
-  "results" : [
     {
-      "passage" : "Genesis 3:4",
-      "textIndex" : (index into text, eg: 8 ),
-      "textLength" : (length of parsed reference text, eg: 7)
-    },
-    …
-  ]
-}
-```
+      "results" : [
+        {
+          "passage" : "Genesis 3:4",
+          "textIndex" : (index into text, eg: 8 ),
+          "textLength" : (length of parsed reference text, eg: 7)
+        },
+        …
+      ]
+    }

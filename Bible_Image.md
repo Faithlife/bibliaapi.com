@@ -6,9 +6,7 @@ layout: default
 
 Returns the cover image for a Bible.
 
-```
-https://api.biblia.com/v1/bible/image/{bible}
-```
+    https://api.biblia.com/v1/bible/image/{bible}
 
 ### Example
 

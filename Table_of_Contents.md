@@ -6,9 +6,7 @@ layout: default
 
 Returns the books and chapters of a given bible version.
 
-```
-http://api.biblia.com/v1/bible/contents/{bible}
-```
+    http://api.biblia.com/v1/bible/contents/{bible}
 
 ### Example
 
@@ -22,12 +20,11 @@ http://api.biblia.com/v1/bible/contents/{bible}
 
 ### Response
 
-```
-{
-  "books" : [
     {
-        "passage" : "Genesis",
-        "chapters" : [
+      "books" : [
+        {
+          "passage" : "Genesis",
+          "chapters" : [
             {
               "passage" : "Genesis 1"
             },
@@ -35,9 +32,8 @@ http://api.biblia.com/v1/bible/contents/{bible}
               "passage" : "Genesis 2"
             },
             …
-        ]
-    },
-    …
-  ]
-}
-```
+          ]
+        },
+        …
+      ]
+    }

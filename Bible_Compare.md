@@ -6,9 +6,7 @@ layout: default
 
 Compares two Bible references.
 
-```
-https://api.biblia.com/v1/bible/compare?first={bible reference}&second={bible reference}
-```
+    https://api.biblia.com/v1/bible/compare?first={bible reference}&second={bible reference}
 
 ### Examples
 
@@ -29,20 +27,18 @@ https://api.biblia.com/v1/bible/compare?first={bible reference}&second={bible re
 
 ### Response
 
-```
-{
-  "equal" : (true/false),
-  "intersects" : (true/false),
-  "compare" : (-1/0/1),
-  "startToStart" : (-1/0/1),
-  "startToEnd" : (-1/0/1),
-  "endToStart" : (-1/0/1),
-  "endToEnd" : (-1/0/1),
-  "after" : (true/false),
-  "before" : (true/false),
-  "subset" : (true/false),
-  "strictSubset" : (true/false),
-  "superset" : (true/false),
-  "strictSuperset" : (true/false),
-}
-```
+    {
+      "equal" : (true/false),
+      "intersects" : (true/false),
+      "compare" : (-1/0/1),
+      "startToStart" : (-1/0/1),
+      "startToEnd" : (-1/0/1),
+      "endToStart" : (-1/0/1),
+      "endToEnd" : (-1/0/1),
+      "after" : (true/false),
+      "before" : (true/false),
+      "subset" : (true/false),
+      "strictSubset" : (true/false),
+      "superset" : (true/false),
+      "strictSuperset" : (true/false),
+    }

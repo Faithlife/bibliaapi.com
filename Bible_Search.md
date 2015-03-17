@@ -6,9 +6,7 @@ layout: default
 
 Searches the text of a Bible.
 
-```
-https://api.biblia.com/v1/bible/search/{bible}?query={query}
-```
+    https://api.biblia.com/v1/bible/search/{bible}?query={query}
 
 ### Example
 
@@ -29,14 +27,12 @@ https://api.biblia.com/v1/bible/search/{bible}?query={query}
 
 ### Response
 
-```
-{
-  "results" : [
     {
-      "passage" : "John 1:1",
-      "preview" : "In the beginning was the Word, and the Word was with God, and the Word was God."
-    },
-    ...
-  ]
-}
-```
+      "results" : [
+        {
+          "passage" : "John 1:1",
+          "preview" : "In the beginning was the Word, and the Word was with God, and the Word was God."
+        },
+        …
+      ]
+    }

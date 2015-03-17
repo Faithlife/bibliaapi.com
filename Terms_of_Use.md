@@ -52,10 +52,8 @@ This site uses the [Biblia](https://biblia.com/) web services from [Logos Bible 
 Link the image and "Biblia" to https://biblia.com/ and "Logos Bible Software" to https://www.logos.com/. The logo image source should be https://api.biblia.com/v1/PoweredByBiblia.png or https://api.biblia.com/v1/PoweredByBiblia_small.png.
 
 
-```
-<a href="http://biblia.com/"><img src="http://api.biblia.com/PoweredByBiblia.png" alt="Powered by Biblia" /></a>
-This site uses the <a href="http://biblia.com/">Biblia</a> web services from <a href="http://www.logos.com/">Logos Bible Software</a>.
-```
+    <a href="http://biblia.com/"><img src="http://api.biblia.com/PoweredByBiblia.png" alt="Powered by Biblia" /></a>
+    This site uses the <a href="http://biblia.com/">Biblia</a> web services from <a href="http://www.logos.com/">Logos Bible Software</a>.
 
 ### 8. General
 

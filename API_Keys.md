@@ -14,9 +14,7 @@ Sign in to https://api.biblia.com/v1/Users/SignIn. From here you can manage your
 
 The API key must be provided in every request made to the Biblia.com services through the `key` parameter.
 
-```
-https://api.biblia.com/v1/bible/find?key=abc123
-```
+    https://api.biblia.com/v1/bible/find?key=abc123
 
 ### Web sites
 

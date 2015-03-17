@@ -6,11 +6,9 @@ layout: default
 
 Performs a "fuzzy search" of the Bible.
 
-```
-http://api.biblia.com/v1/bible/pericopesearch/{bible}
-
-http://api.biblia.com/v1/bible/pericopesearch/LEB
-```
+    http://api.biblia.com/v1/bible/pericopesearch/{bible}
+    
+    http://api.biblia.com/v1/bible/pericopesearch/LEB
 
 ### Request Parameters
 

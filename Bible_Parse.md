@@ -6,9 +6,7 @@ layout: default
 
 Parses the specified text as one or more Bible passages. Can also be used to render a Bible reference in short, medium, or long form.
 
-```
-https://api.biblia.com/v1/bible/parse
-```
+    https://api.biblia.com/v1/bible/parse
 
 ### Examples
 
@@ -25,18 +23,16 @@ https://api.biblia.com/v1/bible/parse
 
 ### Response
 
-```
-{
-  "passage" : "2 Kings 3:1-2, 4-5"
-  "passages" : [
     {
-      "passage" :  "2 Kings 3:1-2",
-      "parts" : { "book" : "2 Kings", "chapter" : 3, "verse" : 1, "endVerse" : 2 }
-    },
-    {
-      "passage" : "2 Kings 3:4-5",
-      "parts" : { "book" : "2 Kings", "chapter" : 3, "verse" : 4, "endVerse" : 5 }
+      "passage" : "2 Kings 3:1-2, 4-5"
+      "passages" : [
+        {
+          "passage" :  "2 Kings 3:1-2",
+          "parts" : { "book" : "2 Kings", "chapter" : 3, "verse" : 1, "endVerse" : 2 }
+        },
+        {
+          "passage" : "2 Kings 3:4-5",
+          "parts" : { "book" : "2 Kings", "chapter" : 3, "verse" : 4, "endVerse" : 5 }
+        }
+      ]
     }
-  ]
-}
-```

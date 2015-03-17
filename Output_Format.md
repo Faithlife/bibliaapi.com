@@ -21,38 +21,34 @@ Our XML format is a predictable transformation from the JSON format. The root el
 
 ### Example JSON document
 
-```
-{
-  "name" : "Joe",
-  "age" : 34,
-  "ratio" : 0.75,
-  "male" : true,
-  "birthplace" : {
-    "city" : "Bellingham",
-    "state" : "WA"
-  },
-  "children" : [
-    "Manny",
-    "Moe",
-    "Jack"
-  ]
-}
-```
+    {
+      "name" : "Joe",
+      "age" : 34,
+      "ratio" : 0.75,
+      "male" : true,
+      "birthplace" : {
+        "city" : "Bellingham",
+        "state" : "WA"
+      },
+      "children" : [
+        "Manny",
+        "Moe",
+        "Jack"
+      ]
+    }
 
 ### Example XML document
 
-```
-<response>
-  <name>Joe</name>
-  <age>34</age>
-  <ratio>0.75</ratio>
-  <male>true</male>
-  <birthplace>
-    <city>Bellingham</city>
-    <state>WA</state>
-  </birthplace>
-  <children>Manny</children>
-  <children>Moe</children>
-  <children>Jack</children>
-</response>
-```
+    <response>
+      <name>Joe</name>
+      <age>34</age>
+      <ratio>0.75</ratio>
+      <male>true</male>
+      <birthplace>
+        <city>Bellingham</city>
+        <state>WA</state>
+      </birthplace>
+      <children>Manny</children>
+      <children>Moe</children>
+      <children>Jack</children>
+    </response>

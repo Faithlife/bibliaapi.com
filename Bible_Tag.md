@@ -6,9 +6,7 @@ layout: default
 
 Tags the specified text with Bible references.
 
-```
-https://api.biblia.com/v1/bible/tag?text=Look+up+Gen+3:4
-```
+    https://api.biblia.com/v1/bible/tag?text=Look+up+Gen+3:4
 
 ### Request Parameters
 
@@ -44,8 +42,6 @@ If *tagFormat* is set to one of these values, we automatically substitute an app
 
 The input text, with Bible references replaced as defined by the tagFormat.
 
-```
-{
-  "output" : "Look up <cite class=\"bibleref\" title=\"Gen3.4\">Gen 3:4</cite>."
-}
-```
+    {
+      "output" : "Look up <cite class=\"bibleref\" title=\"Gen3.4\">Gen 3:4</cite>."
+    }

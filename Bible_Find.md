@@ -6,11 +6,9 @@ layout: default
 
 Finds one or more Bibles.
 
-```
-https://api.biblia.com/v1/bible/find/{bible}
-
-https://api.biblia.com/v1/bible/find?query={query}
-```
+    https://api.biblia.com/v1/bible/find/{bible}
+    
+    https://api.biblia.com/v1/bible/find?query={query}
 
 ### Examples
 
@@ -38,22 +36,20 @@ Only Bibles that match **all** of the request parameters will be returned. If no
 
 ### Response
 
-```
-{
-  "bibles" : [
     {
-      "bible" : …,
-      "title" : …,
-      "abbreviatedTitle" : …,
-      "publicationDate" : …,
-      "languages" : […],
-      "publishers" : […],
-      "imageUrl" : …,
-      "description" : …,
-      "copyright" : …,
-      "extendedCopyright" : …
-    },
-    …
-  ]
-}
-```
+      "bibles" : [
+        {
+          "bible" : …,
+          "title" : …,
+          "abbreviatedTitle" : …,
+          "publicationDate" : …,
+          "languages" : […],
+          "publishers" : […],
+          "imageUrl" : …,
+          "description" : …,
+          "copyright" : …,
+          "extendedCopyright" : …
+        },
+        …
+      ]
+    }
