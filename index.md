@@ -9,7 +9,7 @@ The Biblia.com API provides Web, mobile, and desktop applications with access to
 
 * [Getting Started](Getting_Started)
 * [Bible_Services](Bible_Services)
-* [API_Keys](API_Keys)
+* [API Keys](API_Keys)
 * [Sample Code](Samples)
 * [Available Bibles](Available_Bibles)
 * [Terms of Use](Terms_of_Use)
