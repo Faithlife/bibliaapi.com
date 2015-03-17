@@ -8,7 +8,7 @@ API keys allow you to access the Biblia.com services.
 
 ## Getting an API Key
 
-Sign in to https://api.biblia.com/v1/Users/SignIn. From here you can manage your API keys. An API key may only be used by a single application, so you will need to register for a new one for each web site or application you develop.
+Sign in to [https://api.biblia.com/v1/Users/SignIn](https://api.biblia.com/v1/Users/SignIn). From here you can manage your API keys. An API key may only be used by a single application, so you will need to register for a new one for each web site or application you develop.
 
 ## Using your API Key
 
