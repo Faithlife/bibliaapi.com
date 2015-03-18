@@ -105,6 +105,10 @@ input, textarea {
 	color: #999999;
 }
 
+.Footer a {
+	color: #999999;
+}
+
 .LeftColumn {
 	margin: 0;
 	top: 5.3em;
