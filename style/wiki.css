@@ -16,6 +16,10 @@ h1 {
 	border: none;
 }
 
+.Level1 h1 {
+	padding-top: 0;
+}
+
 h2 {
 	border-bottom: 1px solid #cccccc;
 }
@@ -51,7 +55,7 @@ input, textarea {
 	background: #ffffff url(bg_grad_orange.png) repeat-x;
 	border: none;
 	margin: 0;
-	padding: 0.2em 1.5em 1.5em;
+	padding: 1em 1.5em 1.5em;
 	top: -2.2em;
 	font-family: Arial, sans-serif;
 	font-size: 95%;
