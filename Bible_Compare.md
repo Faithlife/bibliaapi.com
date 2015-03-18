@@ -1,9 +1,9 @@
 ---
 title: Bible Compare
 layout: default
+parent_url: Bible_Services
+parent: Bible Services
 ---
-[Bible Services](Bible_Services) >
-
 Compares two Bible references.
 
     https://api.biblia.com/v1/bible/compare?first={bible reference}&second={bible reference}

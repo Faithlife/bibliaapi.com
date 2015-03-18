@@ -1,9 +1,9 @@
 ---
 title: Bible Tag
 layout: default
+parent_url: Bible_Services
+parent: Bible Services
 ---
-[Bible Services](Bible_Services) >
-
 Tags the specified text with Bible references.
 
     https://api.biblia.com/v1/bible/tag?text=Look+up+Gen+3:4

@@ -1,8 +1,9 @@
 ---
 title: Pericope Search
 layout: default
+parent_url: Bible_Services
+parent: Bible Services
 ---
-[Bible Services](Bible_Services) >
 
 Performs a "fuzzy search" of the Bible.
 

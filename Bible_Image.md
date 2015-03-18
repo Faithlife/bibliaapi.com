@@ -1,9 +1,9 @@
 ---
 title: Bible Image
 layout: default
+parent_url: Bible_Services
+parent: Bible Services
 ---
-[Bible Services](Bible_Services) >
-
 Returns the cover image for a Bible.
 
     https://api.biblia.com/v1/bible/image/{bible}

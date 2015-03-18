@@ -1,9 +1,9 @@
 ---
 title: Bible Search
 layout: default
+parent_url: Bible_Services
+parent: Bible Services
 ---
-[Bible Services](Bible_Services) >
-
 Searches the text of a Bible.
 
     https://api.biblia.com/v1/bible/search/{bible}?query={query}

@@ -1,9 +1,9 @@
 ---
 title: Bible Parse
 layout: default
+parent_url: Bible_Services
+parent: Bible Services
 ---
-[Bible Services](Bible_Services) >
-
 Parses the specified text as one or more Bible passages. Can also be used to render a Bible reference in short, medium, or long form.
 
     https://api.biblia.com/v1/bible/parse

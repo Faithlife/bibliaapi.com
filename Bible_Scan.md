@@ -1,9 +1,9 @@
 ---
 title: Bible Scan
 layout: default
+parent_url: Bible_Services
+parent: Bible Services
 ---
-[Bible Services](Bible_Services) >
-
 Scans the specified text for Bible references.
 
     https://api.biblia.com/v1/bible/scan/?text={text}

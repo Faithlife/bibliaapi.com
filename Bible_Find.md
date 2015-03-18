@@ -1,9 +1,9 @@
 ---
 title: Bible Find
 layout: default
+parent_url: Bible_Services
+parent: Bible Services
 ---
-[Bible Services](Bible_Services) >
-
 Finds one or more Bibles.
 
     https://api.biblia.com/v1/bible/find/{bible}
