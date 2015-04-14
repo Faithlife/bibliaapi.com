@@ -6,7 +6,7 @@ layout: default
 Use the field in column Bible ID as the `bible` parameter in your requests.
 
 | Bible ID | Full Title |
-| - | - |
+| --- | --- |
 | ASV | American Standard Version |
 | ARVANDYKE | Arabic Bible (Smith & Van Dyke) |
 | KJV | Authorized Version |
