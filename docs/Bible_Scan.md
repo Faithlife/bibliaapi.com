@@ -16,7 +16,6 @@ Scans the specified text for Bible references.
 
 <table>
 <tr><td> text </td><td> The text to parse (required). </td></tr>
-<tr><td> style </td><td> Style of the rendered form (short, medium, long, display; default long). </td></tr>
 </table>
 
 ### Response
