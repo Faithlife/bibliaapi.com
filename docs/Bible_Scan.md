@@ -6,7 +6,7 @@ parent: Bible Services
 ---
 Scans the specified text for Bible references.
 
-    https://api.biblia.com/v1/bible/scan/?text={text}
+    https://api.biblia.com/v1/bible/scan/?text={text}&tagChapters={bool}
 
 ### Example
 
@@ -16,6 +16,7 @@ Scans the specified text for Bible references.
 
 <table>
 <tr><td> text </td><td> The text to parse (required). </td></tr>
+<tr><td> tagChapters </td><td> Whether to tag references to chapters without a verse; default <code>true</code>. </td></tr>
 </table>
 
 ### Response

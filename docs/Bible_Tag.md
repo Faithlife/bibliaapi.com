@@ -6,14 +6,15 @@ parent: Bible Services
 ---
 Tags the specified text with Bible references.
 
-    https://api.biblia.com/v1/bible/tag?text=Look+up+Gen+3:4
+    https://api.biblia.com/v1/bible/tag?text=Look+up+Gen+3%3a4&tagChapters={bool}
 
 ### Request Parameters
 
 <table>
 <tr><td> text </td><td> The text to tag. </td></tr>
 <tr><td> url </td><td> The URL of the text to tag. </td></tr>
-<tr><td> tagFormat </td><td> documented below; default ref.ly </td></tr>
+<tr><td> tagFormat </td><td> documented below; default ref.ly. </td></tr>
+<tr><td> tagChapters </td><td> Whether to tag references to chapters without a verse; default <code>true</code>. </td></tr>
 </table>
 
 Exactly one of *text* or *url* should be specified.
