@@ -43,8 +43,6 @@ Value | Pattern
 
 The input text, with Bible references replaced as defined by the tagFormat.
 
-```json
-{
-  "output" : "Look up <cite class=\"bibleref\" title=\"Gen3.4\">Gen 3:4</cite>."
-}
-
+    {
+      "output" : "Look up <cite class=\"bibleref\" title=\"Gen3.4\">Gen 3:4</cite>."
+    }
