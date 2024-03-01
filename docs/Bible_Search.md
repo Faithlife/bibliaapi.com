@@ -10,7 +10,7 @@ Searches the text of a Bible.
 
 ### Example
 
-[https://api.biblia.com/v1/bible/search/LEB.js?query=bread&mode=verse&start=0&limit=20&key=abc123](https://api.biblia.com/v1/bible/search/LEB.js?query=bread&mode=verse&start=0&limit=20&key=fd37d8f28e95d3be8cb4fbc37e15e18e)
+[https://api.biblia.com/v1/bible/search/LEB.js?query=bread&mode=verse&start=0&limit=20&key=abc123](https://api.biblia.com/v1/bible/search/LEB.js?query=bread&mode=verse&start=0&limit=20&key=abc123)
 
 ### Request Parameters
 
