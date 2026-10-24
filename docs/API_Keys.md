@@ -5,10 +5,11 @@ layout: default
 
 API keys allow you to access the Biblia.com services.
 
+> **Note:** Thank you for your interest in the Biblia.com API. The API is closed to new registrations.
 
-## Getting an API Key
+## Managing your API Keys
 
-Sign in to [https://api.biblia.com/v1/Users/SignIn](https://api.biblia.com/v1/Users/SignIn). From here you can manage your API keys. An API key may only be used by a single application, so you will need to register for a new one for each web site or application you develop.
+Sign in to [https://api.biblia.com/v1/Users/SignIn](https://api.biblia.com/v1/Users/SignIn) to manage your existing API keys. An API key may only be used by a single application.
 
 ## Using your API Key
 
